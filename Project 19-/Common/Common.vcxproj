@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{131DF2EC-0532-35E1-ADBC-5FCD17B3A12B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\Common\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\Common\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/DirectX11-With-Windows-SDK-master/Project 19-/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/DirectX11-With-Windows-SDK-master -BD:/DirectX11-With-Windows-SDK-master/build --check-stamp-file "D:/DirectX11-With-Windows-SDK-master/build/Project 19-/Common/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/DirectX11-With-Windows-SDK-master/Project 19-/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/DirectX11-With-Windows-SDK-master -BD:/DirectX11-With-Windows-SDK-master/build --check-stamp-file "D:/DirectX11-With-Windows-SDK-master/build/Project 19-/Common/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Buffer.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Camera.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\CameraController.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Collision.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\CpuTimer.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\DDSTextureLoader11.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\DXTrace.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\DebugLayer.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\EffectHelper.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\GameObject.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Geometry.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\GpuTimer.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\ImGuiLog.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\ModelManager.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\RenderStates.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\ScreenGrab11.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Texture2D.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\TextureManager.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\WICTextureLoader11.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\d3dApp.cpp" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Buffer.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Camera.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\CameraController.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Collision.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\CpuTimer.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\D3DFormat.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\DDSTextureLoader11.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\DXTrace.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\DebugLayer.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\EffectHelper.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\GameObject.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Geometry.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\GpuTimer.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\IEffect.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\ImGuiLog.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\LightHelper.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Material.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\MeshData.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\ModelManager.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Property.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\RenderStates.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\ScreenGrab11.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Texture2D.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\TextureManager.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Transform.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\Vertex.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\WICTextureLoader11.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\WinMin.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\XUtil.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\d3dApp.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\ZERO_CHECK.vcxproj">
+      <Project>{EAAACA6D-A0A5-3152-8083-A21162F1A784}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\ImGui\ImGui.vcxproj">
+      <Project>{23AACF70-36E9-39CA-AD57-D6CF50B5033E}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\assimp\code\assimp.vcxproj">
+      <Project>{D5525009-BAD5-3D5D-9766-4230D87183D0}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{B87C45BF-DFB8-3C4C-8129-67B046B73DFE}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{862D3DD8-E61F-38E2-9985-8379575AF5F3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>36_Deferred_Rendering</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">36_Deferred_Rendering.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">36 Deferred Rendering</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=D:/DirectX11-With-Windows-SDK-master/build/assimp/bin/Debug</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">36_Deferred_Rendering.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">36 Deferred Rendering</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=D:/DirectX11-With-Windows-SDK-master/build/assimp/bin/Release</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;winmm.lib;..\..\ImGui\Debug\ImGui.lib;..\Common\Debug\Common.lib;..\..\assimp\lib\Debug\assimp-vc143-mt.lib;..\..\assimp\contrib\zlib\Debug\zlibstaticd.lib;..\..\ImGui\Debug\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/DirectX11-With-Windows-SDK-master/build/Project 19-/36 Deferred Rendering/Debug/36 Deferred Rendering.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/DirectX11-With-Windows-SDK-master/build/Project 19-/36 Deferred Rendering/36 Deferred Rendering.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DirectX11-With-Windows-SDK-master\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\build\assimp\code\..\include;D:\DirectX11-With-Windows-SDK-master\ImGui\.;D:\DirectX11-With-Windows-SDK-master\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;winmm.lib;..\..\ImGui\Release\ImGui.lib;..\Common\Release\Common.lib;..\..\assimp\lib\Release\assimp-vc143-mt.lib;..\..\assimp\contrib\zlib\Release\zlibstatic.lib;..\..\ImGui\Release\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/DirectX11-With-Windows-SDK-master/build/Project 19-/36 Deferred Rendering/Release/36 Deferred Rendering.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/DirectX11-With-Windows-SDK-master/build/Project 19-/36 Deferred Rendering/36 Deferred Rendering.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/DirectX11-With-Windows-SDK-master/Project 19-/36 Deferred Rendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/DirectX11-With-Windows-SDK-master -BD:/DirectX11-With-Windows-SDK-master/build --check-stamp-file "D:/DirectX11-With-Windows-SDK-master/build/Project 19-/36 Deferred Rendering/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/DirectX11-With-Windows-SDK-master/Project 19-/36 Deferred Rendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/DirectX11-With-Windows-SDK-master -BD:/DirectX11-With-Windows-SDK-master/build --check-stamp-file "D:/DirectX11-With-Windows-SDK-master/build/Project 19-/36 Deferred Rendering/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\DeferredEffect.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\ForwardEffect.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\GameApp.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\Main.cpp" />
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\SkyboxEffect.cpp" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\Effects.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\36 Deferred Rendering\GameApp.h" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\BasicDeferred.hlsl" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\ConstantBuffers.hlsl" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\Forward.hlsl" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\FullScreenTriangle.hlsl" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\GBuffer.hlsl" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\Rendering.hlsl" />
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\36 Deferred Rendering\Shaders\Skybox.hlsl" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\ZERO_CHECK.vcxproj">
+      <Project>{EAAACA6D-A0A5-3152-8083-A21162F1A784}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\Common\Common.vcxproj">
+      <Project>{131DF2EC-0532-35E1-ADBC-5FCD17B3A12B}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\ImGui\ImGui.vcxproj">
+      <Project>{23AACF70-36E9-39CA-AD57-D6CF50B5033E}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\assimp\code\assimp.vcxproj">
+      <Project>{D5525009-BAD5-3D5D-9766-4230D87183D0}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DirectX11-With-Windows-SDK-master\build\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{B87C45BF-DFB8-3C4C-8129-67B046B73DFE}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\CpuTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\DDSTextureLoader11.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\DXTrace.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\RenderStates.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Transform.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Vertex.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\WICTextureLoader11.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\d3dApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\d3dUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\CpuTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\DDSTextureLoader11.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\DXTrace.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Geometry.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\LightHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\RenderStates.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Transform.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\WICTextureLoader11.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\WinMin.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\d3dApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\Common\d3dUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FXCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\HLSL\Basic_2D_PS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\HLSL\Basic_2D_VS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\HLSL\Basic_3D_PS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\HLSL\Basic_3D_VS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\HLSL\Basic.hlsli">
+      <Filter>HLSL Files</Filter>
+    </None>
+    <None Include="D:\DirectX11-With-Windows-SDK-master\Project 10-17\10 Camera\HLSL\LightHelper.hlsli">
+      <Filter>HLSL Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{DBB50FD0-6B8E-30A7-A2E3-01E334DCA11A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL Files">
+      <UniqueIdentifier>{A36F4862-D898-35C3-8664-B1A6A3D6E785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2DF6E072-04CC-378D-B4E7-70C6D38E541C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6B296392-BDB5-38FC-9D6B-A27F4A7CA03A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

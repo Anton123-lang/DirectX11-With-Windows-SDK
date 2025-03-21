@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\BasicEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\ShadowEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\SkyboxEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\31 Shadow Mapping\Shaders\Basic.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\31 Shadow Mapping\Shaders\FullScreenTriangle.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\31 Shadow Mapping\Shaders\LightHelper.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\31 Shadow Mapping\Shaders\Shadow.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DirectX11-With-Windows-SDK-master\build\Project 19-\31 Shadow Mapping\Shaders\Skybox.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DirectX11-With-Windows-SDK-master\Project 19-\31 Shadow Mapping\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2DF6E072-04CC-378D-B4E7-70C6D38E541C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{E27F5494-7520-3E77-9CD7-1A26BB5758A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6B296392-BDB5-38FC-9D6B-A27F4A7CA03A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeLists.txt
+D:/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/zconf.h.cmakein
+D:/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/zlib.pc.cmakein
+D:/cmake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckFunctionExists.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake
+D:/cmake/share/cmake-4.0/Modules/CheckTypeSize.cmake
+D:/cmake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
